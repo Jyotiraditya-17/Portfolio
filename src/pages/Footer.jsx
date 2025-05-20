@@ -151,7 +151,7 @@ const ContactSection = () => {
               href="#"
               className="hover:text-rose-300 flex items-center gap-1 hover:underline"
             >
-              Back to Top <ArrowUp size={14} />
+              Move to Top <ArrowUp size={14} />
             </a>
           </div>
         </div>

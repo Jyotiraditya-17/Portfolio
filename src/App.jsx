@@ -8,13 +8,15 @@ import Projects from './pages/Projects'
 
 function App() {
   return (
-    <div>
-     
+    <div className="bg-gray-900 min-h-screen w-full box-border overflow-x-hidden">
       <Navbar />
-      <Home />
-      <Skills />
-      <Projects />
-      <Footer />
+      {/* Add top padding to prevent content hiding behind navbar */}
+      <main className="pt-14 px-2 sm:px-4 md:px-8 max-w-7xl mx-auto w-full">
+        <Home />
+        <Skills />
+        <Projects />
+        <Footer />
+      </main>
     </div>
   )
 }

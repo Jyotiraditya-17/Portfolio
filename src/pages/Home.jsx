@@ -1,7 +1,6 @@
 import React from "react";
 import { ArrowRight, Download } from "lucide-react";
 import { motion } from "framer-motion";
-import Tilt from "react-parallax-tilt";
 import BlurText from "../animations/BlurText";
 
 function Home() {

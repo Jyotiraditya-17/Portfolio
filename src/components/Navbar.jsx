@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import GooeyNav from '../animations/GooeyNav'
 import ProfileModal from './ProfileModal';
 
 function Navbar() {
