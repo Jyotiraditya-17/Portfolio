@@ -19,6 +19,7 @@ import {
   SiNextdotjs,
   SiMysql,
   SiPostman,
+  SiMui,
 } from 'react-icons/si';
 import ScrollVelocity from '../animations/ScrollVelocity';
 import SpotlightCard from '../animations/SpotlightCard';
@@ -52,7 +53,7 @@ function Skills() {
             <SiTypescript size={50} className="text-blue-400" />
             <SiFirebase size={50} className="text-yellow-500" />
             <FaGithub size={50} className="text-white" />
-            <SiNextdotjs size={50} className="text-white" />
+            <SiMui size={50} className="text-blue-700" />
             <FaBootstrap size={50} className="text-purple-600" />
             <SiMysql size={50} className="text-blue-700" />
             <SiPostman size={50} className="text-orange-500" />
@@ -79,7 +80,7 @@ function Skills() {
                     { icon: <SiTailwindcss className="text-sky-400" />, label: "Tailwind" },
                     { icon: <SiTypescript className="text-blue-400" />, label: "TypeScript" },
                     { icon: <FaBootstrap className="text-purple-600" />, label: "Bootstrap" },
-                    { icon: <SiNextdotjs className="text-white" />, label: "Next.js" },
+                    { icon: <SiMui className="text-blue-400" />, label: "MUI" },
                 ].map(({ icon, label }, i) => (
                     <div key={i} className="flex flex-col items-center text-sm">
                     {icon}

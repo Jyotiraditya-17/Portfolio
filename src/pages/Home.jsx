@@ -33,14 +33,14 @@ function Home() {
           {/* Buttons */}
           <div className="flex gap-4 mt-6">
             <a
-              href="/Resume.pdf"
+              href="/Jyotiraditya-Resume.pdf"
               download
               className="bg-gradient-to-r from-gray-700 via-rose-500 to-orange-400 text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:shadow-xl transition duration-300 flex items-center gap-2"
             >
               <Download size={18} /> Resume
             </a>
             <a
-              href="#footer" // Make sure your footer has this ID
+              href="#footer" 
               className="bg-gradient-to-r from-gray-700 via-rose-500 to-orange-400 text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:shadow-xl transition duration-300 flex items-center gap-2"
             >
               Hire Me <ArrowRight size={18} />
@@ -63,7 +63,7 @@ function Home() {
             {/* Actual avatar image inside with background */}
             <div className="w-full h-full rounded-full overflow-hidden bg-gray-900">
               <img
-                src="/Avatar.png"
+                src="/Avatar2.jpg"
                 alt="Yash Kapure"
                 className="object-cover w-full h-full"
               />
